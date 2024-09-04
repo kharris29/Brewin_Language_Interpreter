@@ -1,0 +1,11 @@
+func main() {
+  f = 5;
+
+  f(20); 
+}
+
+/*
+*OUT*
+ErrorType.TYPE_ERROR
+*OUT*
+*/

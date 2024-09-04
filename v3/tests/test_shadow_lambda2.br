@@ -1,0 +1,12 @@
+func main() {
+  x = 5;
+  y = lambda() { print(x); };   
+  x = 10;
+  y();  /* prints 5 since captured x shadows in-scope x */
+}
+
+/*
+*OUT*
+5
+*OUT*
+*/

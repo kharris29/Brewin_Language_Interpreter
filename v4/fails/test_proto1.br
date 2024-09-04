@@ -1,0 +1,11 @@
+func main() {
+  f = 5;
+  g = @;
+  g.proto = f;
+}
+
+/*
+*OUT*
+ErrorType.TYPE_ERROR
+*OUT*
+*/

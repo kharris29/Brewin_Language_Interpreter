@@ -1,0 +1,28 @@
+
+func bar(ref a) {
+    a = a + 1;
+}
+
+func foo() {
+  b = 5;
+  f = lambda(ref a) { return lambda() { print(a + b); }; };
+  return f;
+}
+
+func main() {
+  f1 = foo();
+  x = 10;
+  f2 = f1(x);
+  f2();
+  print(x);
+  bar(x);
+  f2();
+}
+
+/*
+*OUT*
+15
+10
+15
+*OUT*
+*/

@@ -1,0 +1,19 @@
+func foo() { print("hi"); }
+
+func foo2() { return foo; }
+
+func main() {
+ a = foo;
+ b = foo();
+ c = foo2();
+ if (a != b) { print("Good"); }
+ if (a != c) { print("Good"); }
+}
+
+/*
+*OUT*
+hi
+Good
+Good
+*OUT*
+*/

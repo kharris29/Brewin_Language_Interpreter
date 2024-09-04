@@ -1,0 +1,32 @@
+
+func foo(a) {
+    a = a + 5;
+    print(a);
+    a = a+1;
+    foo();
+    print(a);
+}
+
+
+func foo() {
+    a = a+1;
+    print(a);
+}
+
+
+func main() {
+  a = 5;
+  foo();
+  foo(10);
+  foo();
+}
+
+/*
+*OUT*
+6
+15
+17
+17
+7
+*OUT*
+*/

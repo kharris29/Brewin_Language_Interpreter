@@ -1,0 +1,11 @@
+func main() {
+  a = 5;
+  if (true) { a = 10; }
+  print(a);
+}
+
+/*
+*OUT*
+10
+*OUT*
+*/

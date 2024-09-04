@@ -1,0 +1,14 @@
+
+
+func main() {
+  
+  x = (-5 || false) + 10 == 11;
+  print(x);
+
+}
+
+/*
+*OUT*
+true
+*OUT*
+*/

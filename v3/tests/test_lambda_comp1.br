@@ -1,0 +1,15 @@
+
+func main() {
+  x = lambda() {print("hi"); };
+  y = lambda() {print("hi"); };
+  z = x;
+  if (x != y) { print("Good"); }
+  if (x == z) { print("Good"); }
+}
+
+/*
+*OUT*
+Good
+Good
+*OUT*
+*/

@@ -1,0 +1,12 @@
+func foo(x) { print(x); }
+
+func main() {
+  f = foo;
+  f(10,20);
+}
+
+/*
+*OUT*
+ErrorType.TYPE_ERROR
+*OUT*
+*/

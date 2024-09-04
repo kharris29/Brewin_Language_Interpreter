@@ -1,0 +1,13 @@
+func main() {
+  b = 10;
+  print(b);  
+}
+
+/*
+*IN*
+10
+*IN*
+*OUT*
+10
+*OUT*
+*/

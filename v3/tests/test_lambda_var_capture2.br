@@ -1,0 +1,12 @@
+func main() {
+  c = 5;
+  f = lambda(a) { c = c + a; };  /* captured copied C should shadow dynamically type inherited C */
+  f(10);
+  print(c);
+}
+
+/*
+*OUT*
+5
+*OUT*
+*/

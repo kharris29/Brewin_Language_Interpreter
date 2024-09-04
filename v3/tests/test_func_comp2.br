@@ -1,0 +1,12 @@
+func foo() { print("hi"); }
+
+func main() {
+ a = foo;
+ if (a == foo) { print("Good"); }
+}
+
+/*
+*OUT*
+Good
+*OUT*
+*/

@@ -1,0 +1,20 @@
+func foo() {
+  c = 0;
+  f = lambda(a) { c = c + a; return c; };
+  return f;
+}
+
+func main() {
+  f1 = foo(); 
+  print(f1(5));
+  print(f1(3));
+  print(f1(7));
+}
+
+/*
+*OUT*
+5
+8
+15
+*OUT*
+*/

@@ -1,0 +1,27 @@
+
+func main() {
+  a = 5;
+  foo();
+  foo(10);
+  foo(20,30);
+}
+
+func foo() {
+  print(a);
+}
+
+func foo(a) {
+  print(a);
+}
+
+func foo(a,b) {
+  print(a," ",b);
+}
+
+/*
+*OUT*
+5
+10
+20 30
+*OUT*
+*/

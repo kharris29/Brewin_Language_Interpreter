@@ -1,0 +1,22 @@
+
+func foo() {
+    print("hi");
+}
+
+func foo(a) {
+    print(a);
+}
+
+func bar(f) {
+    foo(10);
+}
+
+func main() {
+  bar(foo);
+}
+
+/*
+*OUT*
+ErrorType.NAME_ERROR
+*OUT*
+*/

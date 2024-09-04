@@ -1,0 +1,10 @@
+func main() {
+ if (true) { b = 5; } else { b = 3; }
+ print(b); 
+}
+
+/*
+*OUT*
+ErrorType.NAME_ERROR
+*OUT*
+*/

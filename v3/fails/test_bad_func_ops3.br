@@ -1,0 +1,14 @@
+
+func foo() {
+    print("hi");
+}
+
+func main() {
+  print(!foo);
+}
+
+/*
+*OUT*
+ErrorType.TYPE_ERROR
+*OUT*
+*/

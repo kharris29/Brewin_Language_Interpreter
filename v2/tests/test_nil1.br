@@ -1,0 +1,27 @@
+func foo() {
+ print(1);
+}
+
+func bar() {
+ return nil;
+}
+
+func main() {
+ x = foo();
+ if (x == nil) {
+  print(2);
+ }
+ y = bar();
+ if (y == nil) {
+  print(3);
+ }
+ 
+}
+
+/*
+*OUT*
+1
+2
+3
+*OUT*
+*/

@@ -1,0 +1,19 @@
+func main() {
+	print(foo(3));
+}
+
+func foo(a) {
+	if (a == 0) { return 1; }
+	ans = 0;
+	while (a > 0) {
+		ans = foo(a-1) + ans;
+		a = a - 1;
+	}
+	return ans;
+}
+
+/*
+*OUT*
+3
+*OUT*
+*/

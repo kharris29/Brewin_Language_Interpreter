@@ -1,0 +1,18 @@
+func main() {
+  b = true && 1;
+  print(b);
+
+  c = true && 0;
+  print(c);
+  
+  d = false || 1;
+  print(d);
+}
+
+/*
+*OUT*
+true
+false
+true
+*OUT*
+*/

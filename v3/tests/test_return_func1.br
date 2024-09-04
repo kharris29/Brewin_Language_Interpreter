@@ -1,0 +1,13 @@
+func foo() { return bar; }
+func bar(a) { print(a); }
+
+func main() {
+  a = foo();
+  a(10);
+}
+
+/*
+*OUT*
+10
+*OUT*
+*/

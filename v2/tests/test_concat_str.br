@@ -1,0 +1,15 @@
+func main() {
+  a = "abc" + "def";
+  b = "abc";
+  c = "def";
+  d = b + c;
+  print(a);
+  print(d);
+}
+
+/*
+*OUT*
+abcdef
+abcdef
+*OUT*
+*/

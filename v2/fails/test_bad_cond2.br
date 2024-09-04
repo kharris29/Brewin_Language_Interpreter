@@ -1,0 +1,10 @@
+func main() {
+  a = "abc";
+  while (a) { print("true"); }
+}
+
+/*
+*OUT*
+ErrorType.TYPE_ERROR
+*OUT*
+*/

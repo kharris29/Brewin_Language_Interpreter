@@ -1,0 +1,11 @@
+
+func main() {
+  x = lambda() { print("hi"); };
+  z = x + 10;
+}
+
+/*
+*OUT*
+ErrorType.TYPE_ERROR
+*OUT*
+*/

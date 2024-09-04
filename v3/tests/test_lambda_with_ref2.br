@@ -1,0 +1,14 @@
+
+func main() {
+  x = lambda(ref a) { a = a+1; print(a);};
+  y = 10;
+  x(y);
+  x(y);
+}
+
+/*
+*OUT*
+11
+12
+*OUT*
+*/

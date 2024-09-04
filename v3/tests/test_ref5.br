@@ -1,0 +1,23 @@
+
+
+func bar() {
+    print("hi");
+}
+
+func foo(ref x) {
+    x = bar;
+}
+
+func main() {
+
+    x = 10;
+    foo(x);
+    x();
+  
+}
+
+/*
+*OUT*
+hi
+*OUT*
+*/

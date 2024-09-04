@@ -1,0 +1,9 @@
+func main() {
+  a = b + 5;
+}
+
+/*
+*OUT*
+ErrorType.NAME_ERROR
+*OUT*
+*/

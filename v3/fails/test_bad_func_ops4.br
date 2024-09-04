@@ -1,0 +1,18 @@
+
+
+func bar() {
+    print("hello");
+}
+
+
+func main() {
+
+    print(bar || true);
+  
+}
+
+/*
+*OUT*
+ErrorType.TYPE_ERROR
+*OUT*
+*/

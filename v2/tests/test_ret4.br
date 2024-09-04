@@ -1,0 +1,20 @@
+func foo() {
+ i = 3;
+ if (i > 0) {
+  print(i);
+  return i;
+  print(i+1);
+ }
+}
+
+func main() {
+ x = foo();
+ print(x);
+}
+
+/*
+*OUT*
+3
+3
+*OUT*
+*/

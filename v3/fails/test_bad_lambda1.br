@@ -1,0 +1,11 @@
+func main() {
+  f = lambda(a) { print(a*b); }; 
+
+  f(20); 
+}
+
+/*
+*OUT*
+ErrorType.NAME_ERROR
+*OUT*
+*/

@@ -1,0 +1,9 @@
+func main() {
+ a = true || 0;
+}
+
+/*
+*OUT*
+ErrorType.TYPE_ERROR
+*OUT*
+*/

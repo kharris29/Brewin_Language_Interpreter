@@ -1,0 +1,9 @@
+func main() {
+  f.foo();
+}
+
+/*
+*OUT*
+ErrorType.NAME_ERROR
+*OUT*
+*/

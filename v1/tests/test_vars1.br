@@ -1,0 +1,12 @@
+func main() {
+  foo = 10;
+  bar = foo;
+  bletch = foo + bar;
+  print(foo, bar, bletch);  
+}
+
+/*
+*OUT*
+101020
+*OUT*
+*/

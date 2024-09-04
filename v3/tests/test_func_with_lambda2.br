@@ -1,0 +1,12 @@
+func foo() { a(10); }
+
+func main() {
+  a = lambda(b) { print(b); };
+  foo();
+}
+
+/*
+*OUT*
+10
+*OUT*
+*/

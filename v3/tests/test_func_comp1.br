@@ -1,0 +1,18 @@
+func foo() { print("hi"); }
+
+func main() {
+ a = foo;
+ if (a != nil) { print("Good"); }
+ if (foo != nil) { print("Good"); }
+ if (nil != a) { print("Good"); }
+ if (nil != foo) { print("Good"); }
+}
+
+/*
+*OUT*
+Good
+Good
+Good
+Good
+*OUT*
+*/

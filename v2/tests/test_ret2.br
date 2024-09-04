@@ -1,0 +1,14 @@
+func main() {
+  a = foo();
+  print(a);
+}
+
+func foo() {
+ return 5;
+}
+
+/*
+*OUT*
+5
+*OUT*
+*/

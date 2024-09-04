@@ -1,0 +1,13 @@
+func main() {
+  b = 5;
+  f = lambda(a) { print(a*b); };   /* captures b = 5 and fixes at 5 */
+  b = 10;
+
+  f(20);   /* b = 5 overrides b = 10; captured variables shadow earler env */
+}
+
+/*
+*OUT*
+100
+*OUT*
+*/

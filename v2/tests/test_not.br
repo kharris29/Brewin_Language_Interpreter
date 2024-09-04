@@ -1,0 +1,15 @@
+func main() {
+  a = true;
+  b = !a;
+  print(b);
+  print(!false);
+}
+
+/*
+*IN*
+*IN*
+*OUT*
+false
+true
+*OUT*
+*/

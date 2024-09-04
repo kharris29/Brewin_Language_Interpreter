@@ -1,0 +1,26 @@
+func main() {
+  b = true + 123;
+  print(b);
+  
+  b = 123 + true;
+  print(b);
+  
+  b = 123 + false;
+  print(b);
+
+  c = true + true;
+  print(c);
+  
+  d = false + true;
+  print(d);
+}
+
+/*
+*OUT*
+124
+124
+123
+2
+1
+*OUT*
+*/

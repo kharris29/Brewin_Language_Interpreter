@@ -1,0 +1,20 @@
+func foo() {
+  print(y);   /* generates an ErrorType.NAME_ERROR */
+}
+
+func bar() {
+  y = 10;
+  x = foo;
+}
+
+func main() {
+  x = nil;
+  bar();
+  x();
+}
+
+/*
+*OUT*
+ErrorType.NAME_ERROR
+*OUT*
+*/

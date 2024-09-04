@@ -1,0 +1,23 @@
+func foo(a, c) {
+   print(a);
+   print(b);
+   a = 1;
+   b = 2;
+}
+
+func main() {
+  a = 10;
+  b = 20;
+  foo(a, b);
+  print(a); 
+  print(b);
+}
+
+/*
+*OUT*
+10
+20
+10
+2
+*OUT*
+*/

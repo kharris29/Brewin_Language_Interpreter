@@ -1,0 +1,18 @@
+func foo() {
+  b = 5;
+  f = lambda(a) { print(a*b*c); };   /* captures b = 5 and fixes at 5 */
+  return f;
+}
+
+func main() {
+  f2 = foo(); 
+  b = 10;
+  c = 3;
+  f2(10);
+}
+
+/*
+*OUT*
+150
+*OUT*
+*/

@@ -1,0 +1,17 @@
+func main() {
+  n = 5;
+  print(fact(1));
+}
+
+func fact(final) {
+  if (n <= 1) { return final; }
+  final = n * final;
+  n = n - 1;
+  return fact(final);
+}
+
+/*
+*OUT*
+120
+*OUT*
+*/

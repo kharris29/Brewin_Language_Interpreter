@@ -1,0 +1,17 @@
+
+func foo(ref a) {
+  a = a + 1;
+}
+
+func main() {
+  x = lambda(ref a) { a = a + 1; foo(a); };
+  y = 10;
+  x(y);
+  print(y);
+}
+
+/*
+*OUT*
+12
+*OUT*
+*/

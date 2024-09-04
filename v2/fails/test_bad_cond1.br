@@ -1,0 +1,10 @@
+func main() {
+  a = 5;
+  if (a) { print("true"); print("foo"); }
+}
+
+/*
+*OUT*
+ErrorType.TYPE_ERROR
+*OUT*
+*/

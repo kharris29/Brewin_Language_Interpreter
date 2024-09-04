@@ -1,0 +1,17 @@
+func foo() {
+  b = 5;
+  f = lambda(a) { return lambda(c) { return a + b + c; }; };  
+  return f;
+}
+
+func main() {
+  f1 = foo(); 
+  f2 = f1(10);
+  print(f2(3));
+}
+
+/*
+*OUT*
+18
+*OUT*
+*/

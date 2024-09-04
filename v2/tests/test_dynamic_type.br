@@ -1,0 +1,15 @@
+func main() {
+  foo(1, 2);
+  foo("Hello", "world");
+}
+
+func foo(a, b) {
+  print(a + b);
+}
+
+/*
+*OUT*
+3
+Helloworld
+*OUT*
+*/

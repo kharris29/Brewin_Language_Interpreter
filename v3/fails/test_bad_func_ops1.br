@@ -1,0 +1,11 @@
+func main() {
+  f = main;
+
+  if (f > 10) { printf("hi"); }
+}
+
+/*
+*OUT*
+ErrorType.TYPE_ERROR
+*OUT*
+*/
